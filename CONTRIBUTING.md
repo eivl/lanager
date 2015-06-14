@@ -1,11 +1,11 @@
-# Pull request guidelines
+# Pull Request Guidelines
 
 [GitHub pull requests](https://help.github.com/articles/using-pull-requests)
 are a great way for everyone in the community to contribute to the LANager
 project. Found a bug? Just fix it in your fork and submit a pull request.
 This will then be reviewed, and, if found as good, merged into the main repository.
 
-# Branch naming conventions
+# Branch Naming Conventions
 
 `master`	**Stable**, production ready
 
@@ -19,7 +19,7 @@ This will then be reviewed, and, if found as good, merged into the main reposito
 
 See [A successful git branching model](http://nvie.com/posts/a-successful-git-branching-model/) for more information
 
-# Copyright ownership
+# Copyright Ownership
 
 By contributing code to this project, you hereby assign copyright in 
 this code to the project, to be licensed under the same terms as the 
