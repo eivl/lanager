@@ -16,4 +16,6 @@ $achievement = new Achievement\Achievement( 'Bonk!', 'Drink 5 caffinated beverag
 
 $lan = new Lan\Lan( 'Zero Ping Heroes LAN 13', new DateTime('2015-06-12 18:00:00'), new DateTime('2015-06-14 18:00:00') );
 
-var_dump( $lan );
+$role = new Role\Role( 'Administrator' );
+
+var_dump( $role );
