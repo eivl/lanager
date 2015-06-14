@@ -1,9 +1,9 @@
-<?php namespace Zeropingheroes\Lanager\Core\Domain\Attendee;
+<?php namespace Zeropingheroes\Lanager\Core\Domain\User;
 
 use Zeropingheroes\Lanager\Core\Domain\Entity;
 use DomainException;
 
-class Attendee extends Entity {
+class User extends Entity {
 
 	public $id;
 
