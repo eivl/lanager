@@ -15,4 +15,6 @@ $guide = new Guide\Guide( 'LAN Party Rules', 'No diving' );
 
 $achievement = new Achievement\Achievement( 'Bonk!', 'Drink 5 caffinated beverages' );
 
-var_dump($achievement);
+$lan = new Lan\Lan( 'Zero Ping Heroes LAN 13', new \DateTime('2015-06-12 18:00:00'), new \DateTime('2015-06-14 18:00:00') );
+
+var_dump( $lan );
