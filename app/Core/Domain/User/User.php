@@ -9,8 +9,6 @@ class User extends Entity {
 
 	public $username;
 
-	public $avatar;
-
 	public function __construct( $username )
 	{
 		if ( empty( $username ) AND $username !== '0' AND $username !== 0 )
