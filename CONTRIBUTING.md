@@ -5,6 +5,20 @@ are a great way for everyone in the community to contribute to the LANager
 project. Found a bug? Just fix it in your fork and submit a pull request.
 This will then be reviewed, and, if found as good, merged into the main repository.
 
+# Branch naming conventions
+
+`master`	**Stable**, production ready
+
+`develop`	**Unstable**, contains latest features and changes for future releases
+
+`release-*`	**Unstable**, contains features being collected and prepared for production
+
+`hotfix-*`	**Stable**, contains a fix for issues in the `master` branch
+
+`topic-*`	**Unstable**, contains work towards a new feature, experiment or issue 
+
+See [A successful git branching model](http://nvie.com/posts/a-successful-git-branching-model/) for more information
+
 # Copyright ownership
 
 By contributing code to this project, you hereby assign copyright in 
