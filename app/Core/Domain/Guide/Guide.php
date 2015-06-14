@@ -2,7 +2,6 @@
 
 use Zeropingheroes\Lanager\Core\Domain\Entity;
 use DomainException;
-use DateTime;
 
 class Guide extends Entity {
 
