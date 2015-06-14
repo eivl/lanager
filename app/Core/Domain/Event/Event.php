@@ -14,8 +14,6 @@ class Event extends Entity {
 
 	public $end;
 
-	public $description;
-
 	public function __construct( $title, DateTime $start, DateTime $end )
 	{
 		if ( empty( $title ) )
