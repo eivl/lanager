@@ -13,4 +13,6 @@ $event = new Event\Event( 'Pizza Time', $start, $end );
 
 $guide = new Guide\Guide( 'LAN Party Rules', 'No diving' );
 
-var_dump($guide);
+$achievement = new Achievement\Achievement( 'Bonk!', 'Drink 5 caffinated beverages' );
+
+var_dump($achievement);
