@@ -11,4 +11,6 @@ $end = new \DateTime('2015-06-14 18:00:00');
 
 $event = new Event\Event( 'Pizza Time', $start, $end );
 
-var_dump($event);
+$guide = new Guide\Guide( 'LAN Party Rules', 'No diving' );
+
+var_dump($guide);
