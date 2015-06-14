@@ -4,4 +4,6 @@ require '../vendor/autoload.php';
 
 $attendee = new Attendee\Attendee( 'ilumos' );
 
-var_dump($attendee);
+$shout = new Shout\Shout( $attendee, 'Hello LAN');
+
+var_dump($shout);
