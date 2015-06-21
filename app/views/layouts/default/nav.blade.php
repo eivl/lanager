@@ -15,6 +15,10 @@ $navbar =
 		'link' => URL::route('application-usage.index'),
 	],
 	[
+		'title' => 'Shop',
+		'link' => URL::route('products.index'),
+	],
+	[
 		'Info',
 		$info,
 	],

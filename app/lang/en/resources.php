@@ -35,4 +35,11 @@ return [
 	'user-achievements'		=> 'user achievement',
 	'UserRole'				=> 'user role',
 	'user-roles'			=> 'user role',
+	'products'				=> 'product',
+	'Product'				=> 'product',
+	'product-categories'	=> 'product category',
+	'orders'				=> 'order',
+	'Order'					=> 'order',
+	'order-items'			=> 'order item',
+	'OrderItem'				=> 'order item',
 ];

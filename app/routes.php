@@ -85,6 +85,15 @@ function()
 
 	/*
 	|--------------------------------------------------------------------------
+	| Orders
+	|--------------------------------------------------------------------------
+	*/
+	Route::resource('orders', 'OrdersController', ['only' => ['index', 'create', 'store', 'edit', 'update', 'destroy']]);
+	Route::resource('products', 'ProductsController', ['only' => ['index', 'create', 'store', 'edit', 'update', 'destroy']]);
+	Route::resource('product-categories', 'ProductCategoriesController', ['only' => ['index', 'create', 'store', 'edit', 'update', 'destroy']]);
+
+	/*
+	|--------------------------------------------------------------------------
 	| Dashboard
 	|--------------------------------------------------------------------------
 	*/

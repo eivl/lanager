@@ -33,6 +33,12 @@
 			@if ( Authority::can('manage', 'shouts') )
 				<li><a href="{{ route('shouts.index') }}">{{ Icon::bullhorn() }} Moderate Shouts</a></li>
 			@endif
+			@if ( Authority::can('manage', 'products') )
+				<li><a href="{{ route('products.index') }}">{{ Icon::shoppingCart() }} Manage Products</a></li>
+			@endif
+			@if ( Authority::can('manage', 'orders') )
+				<li><a href="{{ route('orders.index') }}">{{ Icon::shoppingCart() }} Manage Orders</a></li>
+			@endif
 			@if ( Authority::can('read', 'logs') )
 				<li><a href="{{ route('logs.index') }}">{{ Icon::console() }} View Logs</a></li>
 			@endif
